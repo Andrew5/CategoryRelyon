@@ -1,0 +1,46 @@
+PODS:
+  - CategoryRelyon (0.1.0):
+    - Masonry
+    - SDWebImage
+    - SDWebImageWebPCoder
+  - libwebp (1.2.1):
+    - libwebp/demux (= 1.2.1)
+    - libwebp/mux (= 1.2.1)
+    - libwebp/webp (= 1.2.1)
+  - libwebp/demux (1.2.1):
+    - libwebp/webp
+  - libwebp/mux (1.2.1):
+    - libwebp/demux
+  - libwebp/webp (1.2.1)
+  - Masonry (1.1.0)
+  - SDWebImage (5.12.5):
+    - SDWebImage/Core (= 5.12.5)
+  - SDWebImage/Core (5.12.5)
+  - SDWebImageWebPCoder (0.8.4):
+    - libwebp (~> 1.0)
+    - SDWebImage/Core (~> 5.10)
+
+DEPENDENCIES:
+  - CategoryRelyon (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - libwebp
+    - Masonry
+    - SDWebImage
+    - SDWebImageWebPCoder
+
+EXTERNAL SOURCES:
+  CategoryRelyon:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CategoryRelyon: 72defa8b4537c52188d4f0cf088e8c82c25cb20c
+  libwebp: 98a37e597e40bfdb4c911fc98f2c53d0b12d05fc
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: 0905f1b7760fc8ac4198cae0036600d67478751e
+  SDWebImageWebPCoder: f93010f3f6c031e2f8fb3081ca4ee6966c539815
+
+PODFILE CHECKSUM: cc16cf800db2d481fa5c16ccad047c0badf64881
+
+COCOAPODS: 1.11.2
