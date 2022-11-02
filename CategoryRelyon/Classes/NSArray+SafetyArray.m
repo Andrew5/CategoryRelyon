@@ -9,6 +9,7 @@
 #import "NSArray+SafetyArray.h"
 #include "NSObject+Until.h"
 #import <objc/runtime.h>
+#import "NSObject+ImpChangeTool.h"
 
 static const NSString *lqq_defaultObject = @"defaultObject";
 
@@ -19,6 +20,7 @@ static const NSString *lqq_defaultObject = @"defaultObject";
     dispatch_once(&onceToken, ^{
         @autoreleasepool {
 //            [objc_getClass("__NSArrayI") swizzleMethod:@selector(objectAtIndex:) withMethod:@selector(lqq_objectAtIndex:) error:nil];
+            [self SwizzlingMethod:@"objectAtIndex:" systemClassString:@"__NSArrayI" toSafeMethodString:@"lqq_objectAtIndex:" targetClassString:@"__NSArrayI"];
         };
     });
 }
@@ -55,6 +57,9 @@ static const NSString *lqq_defaultObject = @"defaultObject";
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         @autoreleasepool {
+            [self SwizzlingMethod:@"objectAtIndex:" systemClassString:@"__NSArrayM" toSafeMethodString:@"lqq_objectAtIndex:" targetClassString:@"__NSArrayM"];
+            [self SwizzlingMethod:@"addObject:" systemClassString:@"__NSArrayM" toSafeMethodString:@"lqq_addObject:" targetClassString:@"__NSArrayM"];
+
 //            [objc_getClass("__NSArrayM") swizzleMethod:
 //             @selector(objectAtIndex:) withMethod:@selector(lqq_objectAtIndex:) error:nil];
 //            [objc_getClass("__NSArrayM") swizzleMethod:

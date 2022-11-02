@@ -14,7 +14,16 @@
     
     return strM;
 }
+- (void *)elementsAddress {
+    void *address = (__bridge void *)self;
+    //void ** 指向指针的指针，指针类型占据8个字节,+2就是往下挪16个字节 这里用*((long *)address +2)也是可以的
+    return *((void **)address + 2);
+}
 
+- (int)capacity {
+    void *address = (__bridge void *)self;
+     return *((int *)address + 7);
+}
 @end
 
 @implementation NSDictionary (Log)
