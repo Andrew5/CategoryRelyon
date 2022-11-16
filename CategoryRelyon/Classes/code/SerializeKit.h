@@ -1,6 +1,9 @@
-
-// http://www.jianshu.com/p/c935314b078e
-// https://github.com/remember17
+//
+//  SerializeKit.h
+//  testSingature_N
+//
+//  Created by rilakkuma on 2022/8/20.
+//  引用  http://www.jianshu.com/p/c935314b078e  https://github.com/remember17
 
 #ifndef SerializeKit_h
 #define SerializeKit_h

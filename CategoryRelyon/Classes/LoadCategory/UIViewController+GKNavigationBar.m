@@ -37,9 +37,9 @@
                                           @"preferredStatusBarStyle",
                                           @"traitCollectionDidChange:"];
         
-        [oriSels enumerateObjectsUsingBlock:^(NSString * _Nonnull oriSel, NSUInteger idx, BOOL * _Nonnull stop) {
-            gk_navigationBar_swizzled_instanceMethod(@"gk", self, oriSel, self);
-        }];
+//        [oriSels enumerateObjectsUsingBlock:^(NSString * _Nonnull oriSel, NSUInteger idx, BOOL * _Nonnull stop) {
+//            gk_navigationBar_swizzled_instanceMethod(@"gk", self, oriSel, self);
+//        }];
     });
 }
 

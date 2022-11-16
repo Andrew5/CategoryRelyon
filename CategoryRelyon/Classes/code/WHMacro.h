@@ -1,11 +1,10 @@
 //
 //  WHMacro.h
-//  WHKit
-//  https://github.com/remember17/WHKit
-//  Created by 吴浩 on 2017/6/7.
-//  Copyright © 2017年 remember17. All rights reserved.
-//  http://www.jianshu.com/p/c935314b078e
-
+//  testSingature_N
+//
+//  Created by rilakkuma on 2022/8/20.
+//  引用 http://www.jianshu.com/p/c935314b078e  https://github.com/remember17/WHKit
+//  
 //NSLog
 #ifdef DEBUG
 #define NSLog(...) NSLog(@"%s 第%d行: %@\n\n",__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__])

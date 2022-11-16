@@ -15,7 +15,6 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         NSArray <NSString *> *oriSels = @[@"pushViewController:animated:"];
-        
         [oriSels enumerateObjectsUsingBlock:^(NSString * _Nonnull oriSel, NSUInteger idx, BOOL * _Nonnull stop) {
             gk_navigationBar_swizzled_instanceMethod(@"gkNav", self, oriSel, self);
         }];

@@ -1,9 +1,8 @@
 //
 //  ICChatServerDefs.h
-//  XZ_WeChat
+//  testSingature_N
 //
-//  Created by 郭现壮 on 16/4/7.
-//  Copyright © 2016年 gxz All rights reserved.
+//  Created by rilakkuma on 2022/8/20.
 //
 
 #ifndef ICChatServerDefs_h
