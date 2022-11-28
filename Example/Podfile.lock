@@ -1,5 +1,10 @@
 PODS:
   - CategoryRelyon (0.1.0):
+    - CategoryRelyon/OnlyCategory (= 0.1.0)
+    - Masonry
+    - SDWebImage
+    - SDWebImageWebPCoder
+  - CategoryRelyon/OnlyCategory (0.1.0):
     - Masonry
     - SDWebImage
     - SDWebImageWebPCoder
@@ -35,7 +40,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CategoryRelyon: 72defa8b4537c52188d4f0cf088e8c82c25cb20c
+  CategoryRelyon: 7dbf6e02543e7bf4f7000f12029fae5a98866f75
   libwebp: 98a37e597e40bfdb4c911fc98f2c53d0b12d05fc
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SDWebImage: 0905f1b7760fc8ac4198cae0036600d67478751e
