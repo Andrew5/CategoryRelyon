@@ -31,6 +31,12 @@ NS_ASSUME_NONNULL_BEGIN
                              borderWidth:(CGFloat)borderWidth
                              borderColor:(UIColor *)borderColor
                           borderLineJoin:(CGLineJoin)borderLineJoin;
+
+/**
+ * 根据当前图像，和指定的尺寸，生成圆⻆图像并且返回
+ * @return 圆⻆图像
+*/
+- (void)cornerImageWithSize:(CGSize)size fillColor:(UIColor*)fillColor completed:(void(^)(UIImage*image))completed;
 @end
 
 NS_ASSUME_NONNULL_END
