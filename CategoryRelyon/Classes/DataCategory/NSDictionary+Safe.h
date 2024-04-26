@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface NSDictionary (Safe)
-
+- (id)safeObjectForKey:(id)key;
 @end
