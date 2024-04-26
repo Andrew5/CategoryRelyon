@@ -143,5 +143,31 @@
     return self.center.y;
 }
 
+//MARK: 实现背景渐变
+- (void)addGradientBackgroundWithColors:(NSArray<UIColor *> *)colors startPoint:(CGPoint)startPoint endPoint:(CGPoint)endPoint {
+    // 移除之前的CAGradientLayer
+    [self removePreviousGradientLayers];
+    
+    CAGradientLayer *gradientLayer = [CAGradientLayer layer];
+    gradientLayer.frame = self.bounds;
+    gradientLayer.startPoint = startPoint;
+    gradientLayer.endPoint = endPoint;
+    gradientLayer.colors = colors;
+    gradientLayer.locations = @[@(0), @(1.0f)];
+    [self.layer insertSublayer:gradientLayer atIndex:0];
+}
+- (void)removePreviousGradientLayers {
+    CALayer *layerToRemove = nil;
+    for (CALayer *layer in self.layer.sublayers) {
+        if ([layer isKindOfClass:[CAGradientLayer class]]) {
+            layerToRemove = layer;
+            break;
+        }
+    }
+
+    if (layerToRemove) {
+        [layerToRemove removeFromSuperlayer];
+    }
+}
 
 @end

@@ -22,5 +22,6 @@
 @property (nonatomic,assign) CGSize size;
 @property (nonatomic,assign) CGFloat centerX;
 @property (nonatomic,assign) CGFloat centerY;
-
+//MARK: 实现背景渐变
+- (void)addGradientBackgroundWithColors:(NSArray<UIColor *> *)colors startPoint:(CGPoint)startPoint endPoint:(CGPoint)endPoint ;
 @end
