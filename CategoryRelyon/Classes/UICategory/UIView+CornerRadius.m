@@ -9,7 +9,6 @@
 #import "UIView+CornerRadius.h"
 #import "Masonry.h"
 #import <objc/runtime.h>
-#import "ZBCornerRadiusTool.h"
 
 @implementation UIView (CornerRadius)
 
