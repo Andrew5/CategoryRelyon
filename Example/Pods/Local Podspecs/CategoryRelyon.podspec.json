@@ -18,7 +18,7 @@
   "platforms": {
     "ios": "9.0"
   },
-  "default_subspecs": "OnlyCategory",
+  "default_subspecs": "DataCategory",
   "dependencies": {
     "Masonry": [
 
@@ -35,16 +35,24 @@
   },
   "subspecs": [
     {
-      "name": "OnlyCategory",
+      "name": "AllCategories",
+      "dependencies": {
+        "CategoryRelyon/Classes/**/*": [
+
+        ]
+      }
+    },
+    {
+      "name": "DataCategory",
       "source_files": [
-        "CategoryRelyon/Classes/OnlyCategory",
+        "CategoryRelyon/Classes/DataCategory",
         "CategoryRelyon/Classes/code"
       ]
     },
     {
-      "name": "LoadCategory",
+      "name": "UICategory",
       "source_files": [
-        "CategoryRelyon/Classes/LoadCategory",
+        "CategoryRelyon/Classes/UICategory",
         "CategoryRelyon/Classes/code"
       ]
     }

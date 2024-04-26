@@ -1,5 +1,5 @@
 //
-//  NSObject+Until.h
+//  NSObject+ValueSafe.h
 //  CollegePro
 //
 //  Created by jabraknight on 2021/12/20.
@@ -9,8 +9,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSObject (Until)
-//+(void)swizzleMethod:(SEL)method1 withMethod:(SEL)method2 error:(id)error;
+@interface NSObject (ValueSafe)
+
+- (id)safeValueForKey:(NSString *)key;
+- (id)safeValueForKeyPath:(NSString *)keyPath;
 
 @end
 

@@ -1,27 +1,35 @@
 PODS:
-  - CategoryRelyon/LoadCategory (0.1.0):
+  - CategoryRelyon (0.1.0):
+    - CategoryRelyon/DataCategory (= 0.1.0)
     - Masonry
     - SDWebImage
     - SDWebImageWebPCoder
-  - libwebp (1.2.3):
-    - libwebp/demux (= 1.2.3)
-    - libwebp/mux (= 1.2.3)
-    - libwebp/webp (= 1.2.3)
-  - libwebp/demux (1.2.3):
+  - CategoryRelyon/DataCategory (0.1.0):
+    - Masonry
+    - SDWebImage
+    - SDWebImageWebPCoder
+  - libwebp (1.3.2):
+    - libwebp/demux (= 1.3.2)
+    - libwebp/mux (= 1.3.2)
+    - libwebp/sharpyuv (= 1.3.2)
+    - libwebp/webp (= 1.3.2)
+  - libwebp/demux (1.3.2):
     - libwebp/webp
-  - libwebp/mux (1.2.3):
+  - libwebp/mux (1.3.2):
     - libwebp/demux
-  - libwebp/webp (1.2.3)
+  - libwebp/sharpyuv (1.3.2)
+  - libwebp/webp (1.3.2):
+    - libwebp/sharpyuv
   - Masonry (1.1.0)
-  - SDWebImage (5.13.4):
-    - SDWebImage/Core (= 5.13.4)
-  - SDWebImage/Core (5.13.4)
-  - SDWebImageWebPCoder (0.9.1):
+  - SDWebImage (5.19.1):
+    - SDWebImage/Core (= 5.19.1)
+  - SDWebImage/Core (5.19.1)
+  - SDWebImageWebPCoder (0.14.6):
     - libwebp (~> 1.0)
-    - SDWebImage/Core (~> 5.13)
+    - SDWebImage/Core (~> 5.17)
 
 DEPENDENCIES:
-  - CategoryRelyon/LoadCategory (from `../`)
+  - CategoryRelyon (from `../`)
 
 SPEC REPOS:
   trunk:
@@ -35,12 +43,12 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CategoryRelyon: 7dbf6e02543e7bf4f7000f12029fae5a98866f75
-  libwebp: 60305b2e989864154bd9be3d772730f08fc6a59c
+  CategoryRelyon: d4c5afd40ab58624fb431e6703208a4e80b5c647
+  libwebp: 1786c9f4ff8a279e4dac1e8f385004d5fc253009
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  SDWebImage: e5cc87bf736e60f49592f307bdf9e157189298a3
-  SDWebImageWebPCoder: 18503de6621dd2c420d680e33d46bf8e1d5169b0
+  SDWebImage: 40b0b4053e36c660a764958bff99eed16610acbb
+  SDWebImageWebPCoder: e38c0a70396191361d60c092933e22c20d5b1380
 
-PODFILE CHECKSUM: 8dace907314a1a9dfd7b59173636dfa0770e91ae
+PODFILE CHECKSUM: a237d6dee246f940c17520cfaea9999385415c1f
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.1

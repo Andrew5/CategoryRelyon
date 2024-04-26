@@ -30,16 +30,25 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-#  s.source_files = 'CategoryRelyon/Classes/**/*'
-  s.subspec 'OnlyCategory' do |c|
-      c.source_files = 'CategoryRelyon/Classes/OnlyCategory',
+  
+  s.subspec 'AllCategories' do |c|
+#    c.source_files = 'CategoryRelyon/Classes/**/*'
+    c.dependency 'CategoryRelyon/Classes/**/*'
+    c.dependency 'CategoryRelyon/Classes/**/*'
+  end
+    
+  #  s.source_files = 'CategoryRelyon/Classes/**/*'
+  s.subspec 'DataCategory' do |c|
+      c.source_files = 'CategoryRelyon/Classes/DataCategory',
                        'CategoryRelyon/Classes/code'
   end
-  s.subspec 'LoadCategory' do |c|
-    c.source_files = 'CategoryRelyon/Classes/LoadCategory',
+  
+  s.subspec 'UICategory' do |c|
+    c.source_files = 'CategoryRelyon/Classes/UICategory',
                      'CategoryRelyon/Classes/code'
   end
-  s.default_subspec = 'OnlyCategory'
+  
+  s.default_subspec = 'DataCategory'
   # s.resource_bundles = {
   #   'CategoryRelyon' => ['CategoryRelyon/Assets/*.png']
   # }

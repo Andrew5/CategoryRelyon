@@ -26,4 +26,14 @@
     self = [self initWithObjects_st:objects forKeys:keys count:rightCount];
     return self;
 }
+
+- (id)safeObjectForKey:(id)key {
+    id retVal = [self objectForKey:key];
+    
+   
+    if ([retVal isEqual:[NSNull null]]) {
+        return nil;
+    }
+    return retVal;
+}
 @end
