@@ -1,10 +1,5 @@
 PODS:
-  - CategoryRelyon (0.1.0):
-    - CategoryRelyon/DataCategory (= 0.1.0)
-    - Masonry
-    - SDWebImage
-    - SDWebImageWebPCoder
-  - CategoryRelyon/DataCategory (0.1.0):
+  - CategoryRelyon/AllCategories (0.1.0):
     - Masonry
     - SDWebImage
     - SDWebImageWebPCoder
@@ -29,7 +24,7 @@ PODS:
     - SDWebImage/Core (~> 5.17)
 
 DEPENDENCIES:
-  - CategoryRelyon (from `../`)
+  - CategoryRelyon/AllCategories (from `../`)
 
 SPEC REPOS:
   trunk:
@@ -43,12 +38,12 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CategoryRelyon: d4c5afd40ab58624fb431e6703208a4e80b5c647
+  CategoryRelyon: ae2eb8741cdfe4e04401bd145c3e6274c08c5523
   libwebp: 1786c9f4ff8a279e4dac1e8f385004d5fc253009
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SDWebImage: 40b0b4053e36c660a764958bff99eed16610acbb
   SDWebImageWebPCoder: e38c0a70396191361d60c092933e22c20d5b1380
 
-PODFILE CHECKSUM: 48f9b087ec1f7e5be466cffe675ac49d99aa557b
+PODFILE CHECKSUM: a9bb2220fd425b6325816e06fb81474bedfc10ff
 
 COCOAPODS: 1.12.1

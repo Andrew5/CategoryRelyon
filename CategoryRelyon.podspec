@@ -31,21 +31,21 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   
-  s.subspec 'AllCategories' do |c|
+  s.subspec 'AllCategories' do |all|
 #    c.source_files = 'CategoryRelyon/Classes/**/*'
-    c.dependency 'CategoryRelyon/Classes/DataCategory/*'
-    c.dependency 'CategoryRelyon/Classes/UICategory/*'
+    all.source_files = 'CategoryRelyon/Classes/DataCategory/**/*.{h,m}',
+                     'CategoryRelyon/Classes/UICategory/**/*.{h,m}'
   end
     
   #  s.source_files = 'CategoryRelyon/Classes/**/*'
-  s.subspec 'DataCategory' do |c|
-      c.source_files = 'CategoryRelyon/Classes/DataCategory',
-                       'CategoryRelyon/Classes/code'
+  s.subspec 'DataCategory' do |data|
+    data.source_files = 'CategoryRelyon/Classes/DataCategory**/*',
+                       'CategoryRelyon/Classes/code/**/*'
   end
   
-  s.subspec 'UICategory' do |c|
-    c.source_files = 'CategoryRelyon/Classes/UICategory',
-                     'CategoryRelyon/Classes/code'
+  s.subspec 'UICategory' do |ui|
+    ui.source_files = 'CategoryRelyon/Classes/UICategory/**/*',
+                     'CategoryRelyon/Classes/code/**/*'
   end
   
   s.default_subspec = 'DataCategory'

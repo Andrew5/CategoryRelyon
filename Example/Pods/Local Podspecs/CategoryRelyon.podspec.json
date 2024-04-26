@@ -36,24 +36,23 @@
   "subspecs": [
     {
       "name": "AllCategories",
-      "dependencies": {
-        "CategoryRelyon/Classes/**/*": [
-
-        ]
-      }
+      "source_files": [
+        "CategoryRelyon/Classes/DataCategory/**/*.{h,m}",
+        "CategoryRelyon/Classes/UICategory/**/*.{h,m}"
+      ]
     },
     {
       "name": "DataCategory",
       "source_files": [
-        "CategoryRelyon/Classes/DataCategory",
-        "CategoryRelyon/Classes/code"
+        "CategoryRelyon/Classes/DataCategory**/*",
+        "CategoryRelyon/Classes/code/**/*"
       ]
     },
     {
       "name": "UICategory",
       "source_files": [
-        "CategoryRelyon/Classes/UICategory",
-        "CategoryRelyon/Classes/code"
+        "CategoryRelyon/Classes/UICategory/**/*",
+        "CategoryRelyon/Classes/code/**/*"
       ]
     }
   ]
