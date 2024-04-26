@@ -174,7 +174,6 @@
 		484184A2F4294247FA4E7A4E5A200AC9 /* SDDeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE547580F94DFABF82F3AD1D587798E /* SDDeviceHelper.m */; };
 		484CD8B4E88A7359460529E88568DA4F /* SDInternalMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 91E867FCF79D9B0B64DDD0ACBE6BFD3A /* SDInternalMacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		491C5A2A6253A9D86A9416B9D8CE7F04 /* vp8i_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D1C3B539E2D4B6A71A1B266CA9B13C1 /* vp8i_enc.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4951C18C724A7FB958F9343D03BC8FFA /* UIViewController+GKNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE02FED0CA7E657081FCD3043EB8DE7 /* UIViewController+GKNavigationBar.m */; };
 		497E59C8EEC1CADEE019FDB56249201F /* neon.h in Headers */ = {isa = PBXBuildFile; fileRef = 23581F5532A124A7883ECAD9AD0AE7CF /* neon.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		49A04062B0F077ECD79AD1406C750F46 /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F23EEF80A2ED48EF16D36933613916F /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49C906D677D52DCF6D03390C3C3D7985 /* yuv.h in Headers */ = {isa = PBXBuildFile; fileRef = 05F05C75F3AFA84307C12E2119680B3F /* yuv.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -340,7 +339,6 @@
 		9212F2965BD6016D8D97BA47F4290CEF /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EC9DDF9975F7941C383E374B508CDA /* NSData+ImageContentType.m */; };
 		9218F7FE76A060EB8B3D1B3E89EE5B25 /* UIButton+ImageTitleSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = C3A22CD4331E064F8F94149407EE8A1A /* UIButton+ImageTitleSpacing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9275A429FFBA8ABA42F7FC0D45E70CF4 /* SDImageCodersManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 69647CD3D0D353C60661B6CC5D47B76B /* SDImageCodersManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		927C21A1611F73AD140994DA7F8E3B91 /* UIViewController+GKNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2B39CF47CC5B71C8AF7444DC8F3D6D /* UIViewController+GKNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		937600EDB43609EDA57B02EA857B7617 /* NSArray+WHArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 464585D5E07D8A79E8357886192E6617 /* NSArray+WHArray.m */; };
 		9392D1E3036740F5D5C8B46EDDDD454D /* random_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6083AFB3810B517D4DA25866DE28E2C4 /* random_utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		93B6125AEDD8C403395CF84DA69A34B6 /* NSObject+WHRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD2DA7C4A85D4092FC1154A841C4E46 /* NSObject+WHRuntime.m */; };
@@ -825,7 +823,6 @@
 		48863D0982CA4561EB42AD28A529B571 /* SDImageTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageTransformer.m; path = SDWebImage/Core/SDImageTransformer.m; sourceTree = "<group>"; };
 		48FE290FCDB4D3CC8C1FCE6E978BC788 /* NSString+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Hex.h"; sourceTree = "<group>"; };
 		4B9CB577F1D6F09614CAF1877FC7280A /* UIView+CornerRadius.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerRadius.m"; sourceTree = "<group>"; };
-		4BE02FED0CA7E657081FCD3043EB8DE7 /* UIViewController+GKNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GKNavigationBar.m"; sourceTree = "<group>"; };
 		4BE7B7E498535F16E04232597282B3E1 /* UIDevice+WHDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+WHDevice.h"; sourceTree = "<group>"; };
 		4C04D8A4C5A894978C54255A3C9A8B14 /* NSString+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		4C2906A51E0272CA066A2AAF5225C638 /* webpi_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = webpi_dec.h; path = src/dec/webpi_dec.h; sourceTree = "<group>"; };
@@ -950,7 +947,6 @@
 		7A94F623DDAD19E621F674984C00E430 /* encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = encode.h; path = src/webp/encode.h; sourceTree = "<group>"; };
 		7ACFE292F175E3982F64D59D35905B5B /* SDImageGraphics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageGraphics.h; path = SDWebImage/Core/SDImageGraphics.h; sourceTree = "<group>"; };
 		7B0658888FF0FCE141F6761AF66330FE /* enc_sse2.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = enc_sse2.c; path = src/dsp/enc_sse2.c; sourceTree = "<group>"; };
-		7B2B39CF47CC5B71C8AF7444DC8F3D6D /* UIViewController+GKNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GKNavigationBar.h"; sourceTree = "<group>"; };
 		7BA16DA8718DD8DC41AAF7843A349906 /* UIImage+ForceDecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ForceDecode.m"; path = "SDWebImage/Core/UIImage+ForceDecode.m"; sourceTree = "<group>"; };
 		7C2653D8C27DF9C566DE722783B4F0BD /* NSTimer+WHTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSTimer+WHTimer.h"; sourceTree = "<group>"; };
 		7C4C07570AAAD939E499F1183FFF7A72 /* NSButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSButton+WebCache.h"; path = "SDWebImage/Core/NSButton+WebCache.h"; sourceTree = "<group>"; };
@@ -2106,8 +2102,6 @@
 				827C9CE49B7A7DA97B2CED2180B54CAC /* UIView+WHView.m */,
 				A9F5271425614325D776D68B5A760C0E /* UIViewController+Cloudox.h */,
 				6806F20FE381A7377A0FD2608578EED3 /* UIViewController+Cloudox.m */,
-				7B2B39CF47CC5B71C8AF7444DC8F3D6D /* UIViewController+GKNavigationBar.h */,
-				4BE02FED0CA7E657081FCD3043EB8DE7 /* UIViewController+GKNavigationBar.m */,
 				78C6ED870D6F56368BE10DB72C3B3C38 /* UIViewController+RTCSampleAlert.h */,
 				B3212E067080AE46D76C3476C7A3457B /* UIViewController+RTCSampleAlert.m */,
 				C776F74065613F02C0F45E54B323EE12 /* UIViewController+topmost.h */,
@@ -2274,7 +2268,6 @@
 				19A363A4C438904EEB2A977CA5D1C935 /* UIView+RandomCorner.h in Headers */,
 				509115EF73EED17B4DF8F80D061EBE56 /* UIView+WHView.h in Headers */,
 				A6C35520C60985D234F7C4A03AF823CD /* UIViewController+Cloudox.h in Headers */,
-				927C21A1611F73AD140994DA7F8E3B91 /* UIViewController+GKNavigationBar.h in Headers */,
 				D7DC88E663B573FE4D339A39DE3DF9D8 /* UIViewController+RTCSampleAlert.h in Headers */,
 				72194A0A289A2EB67BAE0E5AFA4EFA4B /* UIViewController+topmost.h in Headers */,
 				617CE478069672A38C61427BFA809684 /* UIViewController+WHVC.h in Headers */,
@@ -2957,7 +2950,6 @@
 				6533D7206020B0D1A7DA6A44B226726D /* UIView+RandomCorner.m in Sources */,
 				281D56FA98F872096F2CDD91CBC7A200 /* UIView+WHView.m in Sources */,
 				C8AB139D5886445D7D612A74CB9BE94E /* UIViewController+Cloudox.m in Sources */,
-				4951C18C724A7FB958F9343D03BC8FFA /* UIViewController+GKNavigationBar.m in Sources */,
 				3ED82039131C817362BD6F0C599F0406 /* UIViewController+RTCSampleAlert.m in Sources */,
 				C3B27C6265FA2950570E69E32E2B01AD /* UIViewController+topmost.m in Sources */,
 				15B36FFE39F07984392A9979177D5F37 /* UIViewController+WHVC.m in Sources */,
