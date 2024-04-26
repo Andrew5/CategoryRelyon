@@ -21,7 +21,7 @@
     }];
     [self layoutIfNeeded];
     
-    imgView.image = [ZBCornerRadiusTool drawAntiRoundedCornerImageWithRadius:radius rectSize:imgView.frame.size fillColor:fillColor cornerStyle:type];
+//    imgView.image = [ZBCornerRadiusTool drawAntiRoundedCornerImageWithRadius:radius rectSize:imgView.frame.size fillColor:fillColor cornerStyle:type];
 }
 
 - (void)drawCircularBeadImageWithRadius_TL:(float)radius_TL
@@ -36,7 +36,7 @@
     }];
     [self layoutIfNeeded];
     
-    imgView.image = [ZBCornerRadiusTool drawAntiRoundedCornerWithRadius_TL:radius_TL radius_TR:radius_TR radius_BL:radius_BL radius_BR:radius_BR rectSize:imgView.frame.size fillColor:fillColor];
+//    imgView.image = [ZBCornerRadiusTool drawAntiRoundedCornerWithRadius_TL:radius_TL radius_TR:radius_TR radius_BL:radius_BL radius_BR:radius_BR rectSize:imgView.frame.size fillColor:fillColor];
 }
 
 
