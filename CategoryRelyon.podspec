@@ -33,8 +33,8 @@ TODO: Add long description of the pod here.
   
   s.subspec 'AllCategories' do |c|
 #    c.source_files = 'CategoryRelyon/Classes/**/*'
-    c.dependency 'CategoryRelyon/Classes/**/*'
-    c.dependency 'CategoryRelyon/Classes/**/*'
+    c.dependency 'CategoryRelyon/Classes/DataCategory/*'
+    c.dependency 'CategoryRelyon/Classes/UICategory/*'
   end
     
   #  s.source_files = 'CategoryRelyon/Classes/**/*'
