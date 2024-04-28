@@ -56,7 +56,6 @@
 		123E9CDD03C4F43D97249994B59103E5 /* UIImage+MemoryCacheCost.h in Headers */ = {isa = PBXBuildFile; fileRef = D158D5B45109AFAE9336BFB87531D404 /* UIImage+MemoryCacheCost.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		12D4EC611538853B237198FAA7F4762D /* Pods-CategoryRelyon_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 844B745B56882FFC0292E55D16B2BAF5 /* Pods-CategoryRelyon_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		12D8A8A67F21A84D11CC428653588866 /* backward_references_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = 2E8EDB81AA4ECB192977EBA54D1AE67B /* backward_references_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
-		132438BFD6F0C52A8BA9245787CBCAC7 /* UINavigationController+GKNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 709FB96AAD765B7CA96CD069C7B2C627 /* UINavigationController+GKNavigationBar.m */; };
 		13DDB44FAC976834190278BDF8DB3DB5 /* SDWebImageDownloaderRequestModifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 2877E206E88A2299D5F9B4CFB01E1E6A /* SDWebImageDownloaderRequestModifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		14BC8C65E44F5C29EA4846CF72359A66 /* iterator_enc.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C265D9234D4220F4DC318861E8B91E8 /* iterator_enc.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
 		14DD042EF9371D1BB7A5C803A2E6AAE9 /* UIImage+Ref.h in Headers */ = {isa = PBXBuildFile; fileRef = 752656BE11BFF4D8A1EC93F5F53EFBE1 /* UIImage+Ref.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -77,7 +76,6 @@
 		1A2F8E8404C5016A7F2D150AE9908215 /* animi.h in Headers */ = {isa = PBXBuildFile; fileRef = 73AC94574A5E8F3F13E1DE78C4F1CCD2 /* animi.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1AB0B5A4C89B9723F76FF2A1E3E26D8F /* UIImage+SubjectColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA1DBC4A5EFF9EA300A4E7A18A38309 /* UIImage+SubjectColor.m */; };
 		1BA34F86861D0395F7D2782AC038DE47 /* UIView+WebCacheState.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C396E746E7E69069750BEAC1DDE24F1 /* UIView+WebCacheState.m */; };
-		1BF718DB65E7908DBA7B8BD9D21649E8 /* UINavigationController+GKNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = A0743761963349F178F6F4DD9314FD9A /* UINavigationController+GKNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C1699B82732D953F014738BB121FCFC /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 195418D45134C9F2D99D6D75441A2B5E /* NSObject+Runtime.m */; };
 		1C2C012B9B4AAA39356C0C9D63240340 /* yuv.c in Sources */ = {isa = PBXBuildFile; fileRef = 62639A7887784B740976273BB19EC75A /* yuv.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
 		1D3D4D25B52E24EAC85B3E0ED86D6533 /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E011C381AA95C69A34F106765E411A /* SDWebImage-dummy.m */; };
@@ -917,7 +915,6 @@
 		701E94027C5B41A8AB15B707C4EFAD8A /* webp_dec.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = webp_dec.c; path = src/dec/webp_dec.c; sourceTree = "<group>"; };
 		7045F8E965707BA13FE474B36D3704F0 /* SDWebImageIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageIndicator.h; path = SDWebImage/Core/SDWebImageIndicator.h; sourceTree = "<group>"; };
 		706978AF5CFCE7AE0465A6EC78BE06ED /* UILabel+LeftRightDisplay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+LeftRightDisplay.h"; sourceTree = "<group>"; };
-		709FB96AAD765B7CA96CD069C7B2C627 /* UINavigationController+GKNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+GKNavigationBar.m"; sourceTree = "<group>"; };
 		70AF20BAC37CE739E24DB818FE94C35C /* NSObject+Swizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
 		71C0B2CFA7D798414122AFE956C3F419 /* UIColor+KGExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+KGExtension.h"; sourceTree = "<group>"; };
 		724A4430BDEA91F5468B3E809390CBD5 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/Core/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
@@ -1028,7 +1025,6 @@
 		9DAE47C731A64C98F98C99D89DF31792 /* CategoryRelyon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CategoryRelyon-dummy.m"; sourceTree = "<group>"; };
 		9F54BB1E6596CAC6D6FDC1F34BDB46D6 /* NSDate+WHDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WHDate.m"; sourceTree = "<group>"; };
 		9F6B004E261FFDB2FEBECFB0176D6F3E /* ssim.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ssim.c; path = src/dsp/ssim.c; sourceTree = "<group>"; };
-		A0743761963349F178F6F4DD9314FD9A /* UINavigationController+GKNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+GKNavigationBar.h"; sourceTree = "<group>"; };
 		A194BA97297BEDC27E7928A3014064AD /* Pods-CategoryRelyon_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CategoryRelyon_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A1F609FA6760457E398C5097722DE589 /* UIImage+Ref.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Ref.m"; sourceTree = "<group>"; };
 		A224CEBB104BD18C9BB9C0DA89EEBA14 /* SDWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWeakProxy.m; path = SDWebImage/Private/SDWeakProxy.m; sourceTree = "<group>"; };
@@ -2072,8 +2068,6 @@
 				B796D98599883BEDBAADC11EA3B5475D /* UILabel+WHLabel.m */,
 				C3850F20A09DD2BA25B916B07571E73A /* UINavigationController+Cloudox.h */,
 				9485CC3A6E61B852A142215FF60410B0 /* UINavigationController+Cloudox.m */,
-				A0743761963349F178F6F4DD9314FD9A /* UINavigationController+GKNavigationBar.h */,
-				709FB96AAD765B7CA96CD069C7B2C627 /* UINavigationController+GKNavigationBar.m */,
 				D1CA474F0064666A6831240945D7C642 /* UINavigationController+WHNavigationController.h */,
 				0052A4956885E3066D3808F5938DEA63 /* UINavigationController+WHNavigationController.m */,
 				A57E4FBAFA4FBAAFB2865D25CC532BA7 /* UIResponder+GXRouter.h */,
@@ -2253,7 +2247,6 @@
 				02429EBAF3C2672497C375F386750D54 /* UILabel+Spacing.h in Headers */,
 				0711F1430AF3F32A138BFCA727408DAD /* UILabel+WHLabel.h in Headers */,
 				4D243E35B93ECBCEB655D50565ED53A0 /* UINavigationController+Cloudox.h in Headers */,
-				1BF718DB65E7908DBA7B8BD9D21649E8 /* UINavigationController+GKNavigationBar.h in Headers */,
 				85F9C5813816E02781D2907F1277AB2B /* UINavigationController+WHNavigationController.h in Headers */,
 				477C223B563BD50BF7736152C584DCCC /* UIResponder+GXRouter.h in Headers */,
 				DE47737255E68220221C034507DC58CB /* UIScrollView+WHScrollView.h in Headers */,
@@ -2935,7 +2928,6 @@
 				739442E2491CA842F5FE2096B6327A66 /* UILabel+Spacing.m in Sources */,
 				B2D6D73D2396B0B1E6D58E667FC6DDF0 /* UILabel+WHLabel.m in Sources */,
 				4AD7321EEE47CBFA888B2F7D472E8832 /* UINavigationController+Cloudox.m in Sources */,
-				132438BFD6F0C52A8BA9245787CBCAC7 /* UINavigationController+GKNavigationBar.m in Sources */,
 				6AC743935BB3BD71751749231BA3DE02 /* UINavigationController+WHNavigationController.m in Sources */,
 				7E9B8E884CEF1BD1D5D98E2044336D0E /* UIResponder+GXRouter.m in Sources */,
 				1E128284236E067727CE535240BA9C6F /* UIScrollView+WHScrollView.m in Sources */,
